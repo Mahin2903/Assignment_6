@@ -66,7 +66,7 @@ const ShowTreeByCategory = (plants) =>{
         plants.forEach(plants => {
             cardContainer.innerHTML += `<div class="bg-white rounded-xl max-h-[490px] p-4">
            <div>
-           <img class="w-[310px] h-[185px] mt-[8px] rounded-xl" src ="${plants.image}"/>
+           <img class="w-[310px] h-[185px] mt-[8px] rounded-xl mx-auto" src ="${plants.image}"/>
            </div>
         <h1 class="font-bold mt-[8px] mb-[12px] text-[14px]"> ${plants.name} </h1>
         <div>
